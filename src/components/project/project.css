@@ -1,0 +1,31 @@
+.project-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
+    margin-top: 25px ;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.project-border {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    
+    padding: 15px;
+}
+
+.project-name {
+    font-size: 25px;
+    margin-bottom: 15px;
+    grid-column-start: 2;
+}
+
+.image {
+    box-shadow: 0 0 25px black;
+    transition: 1s ;
+}
+
+.image:hover {
+    box-shadow: 0 0 25px lightblue;
+}
