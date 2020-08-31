@@ -1,0 +1,23 @@
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:; */
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.description-header {
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+.description {
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}

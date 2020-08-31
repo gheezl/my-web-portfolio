@@ -1,0 +1,7 @@
+.header-border {
+    padding: 25px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+    box-shadow: 0 0 35px white;
+}
